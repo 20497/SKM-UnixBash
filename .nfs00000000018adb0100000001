@@ -1,0 +1,3 @@
+wget --quiet -O - 'https://skm.trojmiasto.pl'
+wget --quiet -O - 'https://skm.trojmiasto.pl' | grep -P 'option data-keywords' | sed 's/^ *//' | sort | uniq[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D
+
